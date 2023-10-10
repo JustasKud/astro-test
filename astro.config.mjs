@@ -5,4 +5,5 @@ import solid from '@astrojs/solid-js';
 export default defineConfig({
 	// Enable Solid to support Solid JSX components.
 	integrations: [solid()],
+	site: "https://justaskud.github.io"
 });
